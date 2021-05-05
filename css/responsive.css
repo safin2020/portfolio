@@ -1,0 +1,122 @@
+.main-header .dropdown-menu{
+    display: block;
+}
+.call-to-action .col-lg-7{
+    border-right: 1px solid #ddd;
+}
+
+.p-w-50{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+@media (max-width: 1260px) {
+    .main-header .nav-item{
+        padding: 0 5px;
+    }
+}
+
+/* X-Large devices (desktops, 992px and down) */
+@media (max-width: 1200px) {
+    /* main menu */
+    .main-header .dropdown-menu{
+        position: absolute;
+        width: 50%;
+        top: 100% ;
+        left: 100px;
+    }
+    
+    .main-header .nav-item:hover .dropdown-menu {
+        top: 15%;
+    }
+}
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+    .banner-content h1 {
+        font-size: 47px;
+    }
+    .partner-section li {
+        padding: 25px 0;
+        text-align: center;
+    }
+    .p-w-50{
+        width: 100% !important;
+    }
+    .call-to-action-container {
+        padding: 29px 36px;
+    }
+    .call-to-action .col-lg-7{
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .call-to-action-right i{
+        margin-left: 0;
+    }
+    .thin-heading {
+        font-size: 25px;
+    }
+    .main-heading {
+        font-size: 29px;
+    }
+    .our-tab li button.active::after{
+        display: none;
+    }
+    .leader{
+        margin-bottom: 65px;
+    }
+    .post-item{
+        margin-bottom: 35px;
+    }
+}
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {}
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+    .banner-content {
+        width: 100% !important;
+    }
+    .banner-section{
+        background: #eef3f6;
+    }
+    .step-timeline ul {
+        padding-left: 61px;
+        margin-left: 10px;
+    }
+    .step-timeline ul::before{
+        left: 19px;
+        top: -7px;
+        height: calc(100% - 141px);
+    }
+    .step-timeline ul li::before{
+        left: -65px;
+    }
+    .clients-say-content blockquote p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .call-to-action-right i{
+        margin-right: 8px;
+    }
+    .main-heading {
+        font-size: 24px;
+    }
+    .call-to-action-right i {
+        font-size: 40px;
+        width: 68px;
+        height: 68px;
+        line-height: 68px;
+    }
+    .about-img-text{
+        right: 10px;
+        bottom: -120px;
+    }
+    .about-content {
+        margin-top: 120px;
+    }
+}

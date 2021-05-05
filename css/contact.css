@@ -1,0 +1,22 @@
+.breadcrumb-section {
+	padding: 150px 0;
+	background: url(../img/bg.jpg) no-repeat center 17%;
+    position: relative;
+    z-index: 1;
+}
+.breadcrumb-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+}
+.breadcrumb-section h2{
+    font-size: 45px;
+}
+.breadcrumb-section ol li{
+    font-weight: 500;
+}
